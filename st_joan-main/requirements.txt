@@ -1,4 +1,0 @@
-jiwer
-pyannote.audio
-onnxruntime
-torch
