@@ -1,0 +1,248 @@
+1
+00:00:00,000 --> 00:00:03,000
+Simplemente es una grabadora que está...
+
+2
+00:00:04,000 --> 00:00:07,000
+Hago de medico. No tenemos otra en el medico en la sala.
+
+3
+00:00:08,000 --> 00:00:10,000
+Hola Javier, ¿qué tal? ¿Cómo andas?
+
+4
+00:00:10,000 --> 00:00:11,000
+Muy bien, muy bien.
+
+5
+00:00:11,000 --> 00:00:12,000
+¿Qué te pasa? Cuéntame, venga.
+
+6
+00:00:12,000 --> 00:00:15,000
+Desde hace un par de semanas tengo un dolor abdominal
+
+7
+00:00:15,000 --> 00:00:18,000
+que cada vez ha ido más
+
+8
+00:00:18,000 --> 00:00:23,000
+y también he notado cierto sangrado en cuando...
+
+9
+00:00:23,000 --> 00:00:25,000
+Cuando vas al baño.
+
+10
+00:00:25,000 --> 00:00:30,000
+¿En qué la parte del abdomen tienes el dolor?
+
+11
+00:00:30,000 --> 00:00:33,000
+Digamos que en la parte inferior izquierda.
+
+12
+00:00:34,000 --> 00:00:37,000
+Y el dolor es puntual a lo largo del día,
+
+13
+00:00:37,000 --> 00:00:40,000
+sucede de forma constante.
+
+14
+00:00:41,000 --> 00:00:44,000
+Al principio era puntual, luego más adelante,
+
+15
+00:00:44,000 --> 00:00:46,000
+ya ha sido más constante
+
+16
+00:00:46,000 --> 00:00:50,000
+y se acentúa después, por ejemplo, de ir al baño.
+
+17
+00:00:50,000 --> 00:00:54,000
+¿Y cómo calificarías ese dolor en una escala de 1 a 5?
+
+18
+00:00:54,000 --> 00:00:57,000
+¿Consideras que es un dolor incapacitante?
+
+19
+00:00:57,000 --> 00:00:58,000
+¿Es una molestia?
+
+20
+00:00:58,000 --> 00:01:00,000
+Un 3.
+
+21
+00:01:00,000 --> 00:01:01,000
+¿Medio?
+
+22
+00:01:01,000 --> 00:01:02,000
+Sí.
+
+23
+00:01:02,000 --> 00:01:05,000
+¿Has cambiado algo en los hábitos de vida
+
+24
+00:01:05,000 --> 00:01:06,000
+después de haber hecho el...?
+
+25
+00:01:06,000 --> 00:01:09,000
+He empezado a comer más verdura y fruta,
+
+26
+00:01:09,000 --> 00:01:14,000
+pero aún así tampoco he notado mejora.
+
+27
+00:01:14,000 --> 00:01:17,000
+¿Tienes alguna medicación?
+
+28
+00:01:17,000 --> 00:01:18,000
+No.
+
+29
+00:01:18,000 --> 00:01:19,000
+¿Alergias?
+
+30
+00:01:19,000 --> 00:01:20,000
+Nada.
+
+31
+00:01:20,000 --> 00:01:22,000
+¿Has tenido alguna operación?
+
+32
+00:01:25,000 --> 00:01:27,000
+Tampoco. Nada.
+
+33
+00:01:33,000 --> 00:01:38,000
+¿Todo bien en el trabajo, ansiedad, estrés?
+
+34
+00:01:38,000 --> 00:01:42,000
+Los últimos meses han sido muy intensos.
+
+35
+00:01:42,000 --> 00:01:47,000
+Y me he notado estresado e incluso...
+
+36
+00:01:47,000 --> 00:01:48,000
+Te alimentas bien.
+
+37
+00:01:48,000 --> 00:01:51,000
+Tomas una alimentación equilibrada, variable.
+
+38
+00:01:51,000 --> 00:01:55,000
+Muchas veces, cuando hay días intensos de carga,
+
+39
+00:01:55,000 --> 00:01:59,000
+comes poco o comida preparada.
+
+40
+00:01:59,000 --> 00:02:01,000
+Así que no sé, podría comer mejor.
+
+41
+00:02:01,000 --> 00:02:03,000
+¿Y qué tal duermes?
+
+42
+00:02:05,000 --> 00:02:07,000
+A ver, duermo, pero si es verdad,
+
+43
+00:02:07,000 --> 00:02:10,000
+me despierto bastante durante la noche.
+
+44
+00:02:10,000 --> 00:02:11,000
+¿Te puedo ascultar?
+
+45
+00:02:11,000 --> 00:02:12,000
+Adelante.
+
+46
+00:02:12,000 --> 00:02:14,000
+A la ascultación del paciente
+
+47
+00:02:14,000 --> 00:02:16,000
+no se observa ninguna masa,
+
+48
+00:02:16,000 --> 00:02:21,000
+ni ningún signo que pueda objetivar ninguna patología.
+
+49
+00:02:21,000 --> 00:02:24,000
+Bueno, pues yo creo que lo que te vamos a hacer
+
+50
+00:02:24,000 --> 00:02:26,000
+es una radiografía.
+
+51
+00:02:26,000 --> 00:02:29,000
+Bueno, vamos a darte una resonancia,
+
+52
+00:02:29,000 --> 00:02:32,000
+porque vamos sobraos de presupuesto.
+
+53
+00:02:32,000 --> 00:02:36,000
+Y yo te derivo al especialista,
+
+54
+00:02:36,000 --> 00:02:39,000
+que es un médico de medicina interna,
+
+55
+00:02:40,000 --> 00:02:44,000
+vamos a hacer esta prueba médica,
+
+56
+00:02:44,000 --> 00:02:48,000
+y ya con mi compañero te dirá los resultados de la prueba
+
+57
+00:02:48,000 --> 00:02:51,000
+y veremos si podemos resolver este problema.
+
+58
+00:02:51,000 --> 00:02:53,000
+Perfecto, yo no hago nada más.
+
+59
+00:02:53,000 --> 00:02:56,000
+Te llamará la enfermera para darte una cita
+
+60
+00:02:56,000 --> 00:02:58,000
+y decirte cuándo puedes venir al hospital.
+
+61
+00:02:58,000 --> 00:02:59,000
+Perfecto, gracias.
+
+62
+00:02:59,000 --> 00:03:00,000
+Hasta luego.
+

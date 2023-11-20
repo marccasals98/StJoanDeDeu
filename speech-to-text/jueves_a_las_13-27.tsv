@@ -1,0 +1,63 @@
+start	end	text
+0	3000	Simplemente es una grabadora que está...
+4000	7000	Hago de medico. No tenemos otra en el medico en la sala.
+8000	10000	Hola Javier, ¿qué tal? ¿Cómo andas?
+10000	11000	Muy bien, muy bien.
+11000	12000	¿Qué te pasa? Cuéntame, venga.
+12000	15000	Desde hace un par de semanas tengo un dolor abdominal
+15000	18000	que cada vez ha ido más
+18000	23000	y también he notado cierto sangrado en cuando...
+23000	25000	Cuando vas al baño.
+25000	30000	¿En qué la parte del abdomen tienes el dolor?
+30000	33000	Digamos que en la parte inferior izquierda.
+34000	37000	Y el dolor es puntual a lo largo del día,
+37000	40000	sucede de forma constante.
+41000	44000	Al principio era puntual, luego más adelante,
+44000	46000	ya ha sido más constante
+46000	50000	y se acentúa después, por ejemplo, de ir al baño.
+50000	54000	¿Y cómo calificarías ese dolor en una escala de 1 a 5?
+54000	57000	¿Consideras que es un dolor incapacitante?
+57000	58000	¿Es una molestia?
+58000	60000	Un 3.
+60000	61000	¿Medio?
+61000	62000	Sí.
+62000	65000	¿Has cambiado algo en los hábitos de vida
+65000	66000	después de haber hecho el...?
+66000	69000	He empezado a comer más verdura y fruta,
+69000	74000	pero aún así tampoco he notado mejora.
+74000	77000	¿Tienes alguna medicación?
+77000	78000	No.
+78000	79000	¿Alergias?
+79000	80000	Nada.
+80000	82000	¿Has tenido alguna operación?
+85000	87000	Tampoco. Nada.
+93000	98000	¿Todo bien en el trabajo, ansiedad, estrés?
+98000	102000	Los últimos meses han sido muy intensos.
+102000	107000	Y me he notado estresado e incluso...
+107000	108000	Te alimentas bien.
+108000	111000	Tomas una alimentación equilibrada, variable.
+111000	115000	Muchas veces, cuando hay días intensos de carga,
+115000	119000	comes poco o comida preparada.
+119000	121000	Así que no sé, podría comer mejor.
+121000	123000	¿Y qué tal duermes?
+125000	127000	A ver, duermo, pero si es verdad,
+127000	130000	me despierto bastante durante la noche.
+130000	131000	¿Te puedo ascultar?
+131000	132000	Adelante.
+132000	134000	A la ascultación del paciente
+134000	136000	no se observa ninguna masa,
+136000	141000	ni ningún signo que pueda objetivar ninguna patología.
+141000	144000	Bueno, pues yo creo que lo que te vamos a hacer
+144000	146000	es una radiografía.
+146000	149000	Bueno, vamos a darte una resonancia,
+149000	152000	porque vamos sobraos de presupuesto.
+152000	156000	Y yo te derivo al especialista,
+156000	159000	que es un médico de medicina interna,
+160000	164000	vamos a hacer esta prueba médica,
+164000	168000	y ya con mi compañero te dirá los resultados de la prueba
+168000	171000	y veremos si podemos resolver este problema.
+171000	173000	Perfecto, yo no hago nada más.
+173000	176000	Te llamará la enfermera para darte una cita
+176000	178000	y decirte cuándo puedes venir al hospital.
+178000	179000	Perfecto, gracias.
+179000	180000	Hasta luego.
