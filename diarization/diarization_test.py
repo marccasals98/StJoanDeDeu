@@ -4,7 +4,7 @@ pipeline = Pipeline.from_pretrained(
     use_auth_token="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")
 
 # The path where the audio file is saved. 
-audio_path = "/home/mcasals/Desktop/st_joan/diarization/jueves_a_las_13-27.m4a"
+audio_path = "diarization/jueves_a_las_13-27.wav"
 
 # send pipeline to GPU (when available)
 import torch
