@@ -2,3 +2,16 @@ jiwer
 pyannote.audio
 onnxruntime
 torch
+wget
+text-unidecode
+torchvision
+torchaudio
+Cython
+nemo-toolkit
+hydra-core
+transformers
+youtokentome
+inflect
+webdataset
+editdistance
+IPython
