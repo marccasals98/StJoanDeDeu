@@ -1,6 +1,6 @@
-# st_joan
+# Hospital Sant Joan de Déu
 
-This project is mainly focused in speaker diarization and speech-to-text.
+This project aims to do an exploratory solution and provide different tools for Hospital Sant Joan de Déu. It is mainly focused in speaker diarization and speech-to-text.
 
 ## Python environment 
 
