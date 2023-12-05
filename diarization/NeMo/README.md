@@ -53,6 +53,6 @@ To run the model at inference you need a computer with, at least, 16Gb of RAM me
 
 ```rttm_filepath```: this code performs an evaluation if a ground truth of the rttm is provided. 
 
-2. Run the script diarization_NeMo.py
+2. Run the script main.py
 
-```python3 diarization/NeMo/diarization_NeMo.py ```
+```python3 diarization/NeMo/main.py ```
