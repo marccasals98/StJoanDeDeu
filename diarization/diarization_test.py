@@ -8,7 +8,7 @@ audio_path = "diarization/jueves_a_las_13-27.wav"
 
 # send pipeline to GPU (when available)
 import torch
-pipeline.to(torch.device("cuda"))
+pipeline.to(torch.device("cpu"))
 
 # apply pretrained pipeline
 diarization = pipeline(audio_path)

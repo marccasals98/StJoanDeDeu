@@ -20,6 +20,12 @@ source <venv>/bin/activate
 deactivate
 ```
 
+Installing the requirements it is necessary to previously install ```Cython``` by just doing ```pip install Cython```. Once it is installed, tje requirements can be installed normally using the command:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Speaker diarization
 
 In order to do speaker diarization we will make use of the library pyannote.
