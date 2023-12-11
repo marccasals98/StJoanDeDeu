@@ -1,6 +1,8 @@
 # Diarization
 
-We are doing speaker diarization making use of three techniques.
+We are doing speaker diarization making use of three techniques. The audio that is used for testing is ```jueves_a_las_13-27.wav```, it has its version in a m4a. 
+
+The task description is a .json file generated after making the labeling with Label Studio.
 
 ## Pyannote
 
