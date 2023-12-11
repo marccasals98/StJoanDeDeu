@@ -3,7 +3,6 @@ from settings import PATHS
 import os, wget
 
 
-
 def configure():
     """
     This script makes the configuration of the file.
@@ -25,7 +24,7 @@ def configure():
 
     config.num_workers = 1 # Workaround for multiprocessing hanging with ipython issue 
 
-    output_dir = os.path.join(ROOT, 'outputs')
+    output_dir = os.path.join(ROOT, 'diarization/NeMo/new_output/outputs')
     config.diarizer.manifest_filepath = 'diarization/NeMo/data/input_manifest.json'
     config.diarizer.out_dir = output_dir #Directory to store intermediate files and prediction outputs
 
