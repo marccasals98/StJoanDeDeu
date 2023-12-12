@@ -16,7 +16,7 @@ def label_studio_info():
         A list of tuples where each element of the list is a tuple that contains the speaker, the start time of speech and the end time.
     """        
     # Opening the json.
-    path = PATHS['ground_truth']
+    path = PATHS['ground_truth_simplified']
     f = open(path)
     data = json.load(f)
 
