@@ -1,6 +1,8 @@
 import simpleder
 from label_studio import label_studio_info
 from pyannote_conversion import pyannote_info
+from whisperX_conversion import whisperX_info
+
 # maybe simpleder needs to be installed manually !
 
 ref = label_studio_info()
