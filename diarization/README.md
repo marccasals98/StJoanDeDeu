@@ -14,4 +14,17 @@ NeMo is the approach of NVIDIA. To use it just go to the folder NeMo that contai
 
 ## WhisperX
 
-To be soon...
+WhisperX do ASR and Speaker diarization at the same time. 
+
+
+## Results:
+
+The results obtained are:
+
+|          	| DER   	|
+|----------	|-------	|
+| Pyannote 	| 0.168 	|
+| WhisperX 	| 0.221 	|
+| NeMo     	| None  	|
+
+As we can see the best results are obtained with Pyannote. At the moment NeMo is not working. 

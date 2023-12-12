@@ -1,0 +1,46 @@
+SPEAKER_00 (4.397, 8.862):  Hola Javier, ¿qué tal?
+SPEAKER_00 (8.862, 9.803): ¿Cómo andas?
+SPEAKER_01 (9.803, 12.086): Muy bien, muy bien.
+SPEAKER_01 (12.086, 19.854): Desde hace un par de semanas tengo un dolor abdominal que cada vez ha ido más y también he notado
+SPEAKER_01 (20.971, 26.533):  cierto sangrado cuando vas al baño.
+SPEAKER_00 (26.533, 30.395): ¿En qué parte del abdomen tienes el dolor?
+SPEAKER_01 (30.395, 34.276): Digamos que en la parte inferior izquierda.
+SPEAKER_00 (34.276, 37.758): ¿Y el dolor es puntual a lo largo del día?
+SPEAKER_00 (37.758, 41.539): ¿Sucede de forma constante?
+SPEAKER_01 (41.539, 50.183): Al principio era puntual, luego más adelante ya ha sido más constante y se acentúa después, por ejemplo, de ir al baño.
+SPEAKER_00 (51.374, 54.716):  ¿Y cómo calificarías ese dolor en una escala de 1 a 5?
+SPEAKER_00 (54.716, 56.877): ¿Consideras que es un dolor incapacitante?
+SPEAKER_00 (56.877, 58.938): ¿Es una molestia?
+SPEAKER_01 (58.938, 59.098): Un 3.
+SPEAKER_01 (59.098, 62.499): ¿Medio?
+SPEAKER_00 (62.499, 62.879): Sí.
+SPEAKER_00 (62.879, 66.761): ¿Has cambiado algo en los hábitos de vida después de haber hecho el...?
+SPEAKER_01 (66.761, 70.143): He empezado a comer más verdura y fruta.
+SPEAKER_01 (70.143, 75.945): Pero aún así tampoco... tampoco he notado mejora.
+SPEAKER_00 (75.945, 76.886): ¿Tomas alguna medicación?
+SPEAKER_01 (76.886, 78.166): No.
+SPEAKER_00 (78.166, 79.107): ¿Alergias?
+SPEAKER_01 (79.107, 79.267): Nada.
+SPEAKER_00 (80.334, 81.535):  ¿Has tenido alguna operación?
+SPEAKER_00 (81.535, 93.762): Tampoco, nada.
+SPEAKER_00 (93.762, 95.483): ¿Todo bien en el trabajo?
+SPEAKER_00 (95.483, 98.384): ¿Ansiedad, estrés?
+SPEAKER_01 (98.384, 100.605): Los últimos meses han sido muy intensos.
+SPEAKER_01 (103.833, 108.856):  Y me he notado estresado, incluso... ¿Te alimentas bien?
+SPEAKER_00 (108.856, 111.517): ¿Tomas una alimentación equilibrada, variable?
+SPEAKER_01 (111.517, 119.102): Claro, muchas veces cuando hay días intensos de carga, comes poco o comida preparada.
+SPEAKER_01 (119.102, 122.023): Así que no sé, podría comer mejor.
+SPEAKER_01 (122.023, 125.625): ¿Y qué tal duermes?
+SPEAKER_01 (125.625, 126.586): A ver, duermo...
+SPEAKER_01 (127.15, 130.914):  Pero si es verdad me despierto bastante durante la noche.
+SPEAKER_00 (130.914, 132.155): ¿Te puedo auscultar?
+SPEAKER_01 (132.155, 133.357): Adelante.
+SPEAKER_00 (133.357, 141.205): A la auscultación del paciente no se observa ninguna masa ni ningún signo que pueda objetivar ninguna patología.
+SPEAKER_00 (143.308, 146.809):  Bueno, pues yo creo que lo que te vamos a hacer es una radiografía.
+SPEAKER_00 (146.809, 151.71): Bueno, mejor vamos a darte una resonancia porque vamos sobraos de presupuesto.
+SPEAKER_00 (151.71, 161.752): Y yo te derivo al especialista, que es un médico de medicina interna, ¿sabes?
+SPEAKER_00 (161.752, 170.854): Vamos a hacerte esta prueba médica y ya con mi compañero te dirá los resultados de la prueba y veremos a ver si podemos resolverte este problema.
+SPEAKER_01 (171.915, 174.159):  Yo no hago nada más.
+SPEAKER_00 (174.159, 179.208): Te llamará la enfermera para darte una cita y decirte cuándo puedes venir al hospital.
+SPEAKER_01 (179.208, 179.969): Gracias.
+SPEAKER_00 (179.969, 180.37): Hasta luego.
