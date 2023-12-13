@@ -5,6 +5,10 @@ from config import PATHS
 def label_studio_info():
     """
     Returns a list of tuples with the speaker ID, the start time and the end time.
+
+    So, the vector that is returned is:
+
+    ref = [("Speaker_ID", Start1, End1), ("Speaker_ID", Start2, End2)...]
     
     Arguments: 
     ----------
@@ -14,9 +18,10 @@ def label_studio_info():
     --------
     ref: list(tuple(str, double, double)) 
         A list of tuples where each element of the list is a tuple that contains the speaker, the start time of speech and the end time.
+
     """        
     # Opening the json.
-    path = PATHS['ground_truth_simplified']
+    path = PATHS['ground_truth']
     f = open(path)
     data = json.load(f)
 

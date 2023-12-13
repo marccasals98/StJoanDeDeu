@@ -21,10 +21,22 @@ WhisperX do ASR and Speaker diarization at the same time.
 
 The results obtained are:
 
-|          	| DER   	|
-|----------	|-------	|
-| Pyannote 	| 0.168 	|
-| WhisperX 	| 0.221 	|
-| NeMo     	| None  	|
+|          	| DER  (Light)     	        | DER (Simplified)  | DER (Pyannote metric) 
+|----------	|-------	                | -------           | -------
+| Pyannote 	| 0.168 	                | 0.17028           | 0.17263
+| WhisperX 	| 0.221 	                | 0.21672           | 0.21859
+| NeMo     	| None  	                | None              | None
 
-As we can see the best results are obtained with Pyannote. At the moment NeMo is not working. 
+The different metrics that are in the table are:
+1. DER (Light): DER without overlapping (manually modifying) using the following [GitHub](https://github.com/wq2012/SimpleDER)
+2. DER (Simplified): DER without overlapping using Pyannote library.
+3. DER (Pyannote metric): DER with overlapping using Pyannote Library.
+
+
+### Collar modifications
+
+The goal now is to track the different DERs that are obtained when modifying the collar parameter. In order to do this, we are only going to consider the Pyannote with Pyannote metric.
+
+| Collar 	| 0       	| 0.5     	| 1       	| 2        	| 5       	| 10      	|
+|--------	|---------	|---------	|---------	|----------	|---------	|---------	|
+| DER    	| 0.17264 	| 0.11631 	| 0.10058 	| 0.101501 	| 0.12321 	| 0.15093 	|
