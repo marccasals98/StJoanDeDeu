@@ -26,9 +26,9 @@ def init_pipepline():
         use_auth_token="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")
 
     # send pipeline to GPU (when available)
-    pipeline.to(torch.device("cpu"))
-
-    print(f"tipus pipeline {type(pipeline)}")
+    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu") # device configuration
+    pipeline.to(device)
+    print(f"Running on the device: {device}")
 
     return pipeline
 
@@ -50,6 +50,7 @@ def print_results(diarization, embeddings):
         print(f"start={turn.start:.1f}s stop={turn.end:.1f}s speaker_{speaker}")
 
 def main():
+
     pipleline = init_pipepline()
 
     parser = argparse.ArgumentParser(description=__doc__)
