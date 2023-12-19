@@ -1,24 +1,24 @@
 import json
 from pyannote.core import Annotation, Segment
 from pyannote.metrics.diarization import DiarizationErrorRate
-from config import PATHS
 from label_studio import label_studio_info
 from pyannote_conversion import pyannote_info
 from whisperX_conversion import whisperX_info
+from parlament_gt_conversion import parlament_conversion
 
 # Create the references:
 ref = Annotation()
 hyp = Annotation()
 
 # Import the references as list.
-ref_list = label_studio_info()
+ref_list = parlament_conversion()
 hyp_list = pyannote_info()
 
 for reference in ref_list:
-    ref[Segment(reference[1], reference[2])] = reference[0]
+        ref[Segment(reference[1], reference[2])] = reference[0]
 
 for hyphotesis in hyp_list:
-    hyp[Segment(hyphotesis[1], hyphotesis[2])] = hyphotesis[0]
+        hyp[Segment(hyphotesis[1], hyphotesis[2])] = hyphotesis[0]
 
 """
 # This is the original Abir's version ---------------------------------------
@@ -34,5 +34,5 @@ for item in preds:
 # ---------------------------------------------------------------------------
 """
 
-diarizationErrorRate = DiarizationErrorRate(skip_overlap=False, collar=0.25)
+diarizationErrorRate = DiarizationErrorRate(skip_overlap=False, collar=0.0)
 print("DER: ",diarizationErrorRate(ref, hyp, detailed=True))

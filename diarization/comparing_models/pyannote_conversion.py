@@ -14,7 +14,7 @@ def pyannote_info():
     ref: list(tuple(str, double, double)) 
         A list of tuples where each element of the list is a tuple that contains the speaker, the start time of speech and the end time.
     """        
-    file_path = PATHS['pyannote']  # Replace with the actual path to your file
+    file_path = PATHS['parlament_preds']  # Replace with the actual path to your file
 
 
     hyp = []
@@ -36,4 +36,5 @@ def pyannote_info():
             hyp.append(instance)
     
     return hyp
+
 
