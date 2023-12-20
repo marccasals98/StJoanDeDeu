@@ -23,6 +23,8 @@ for hyphotesis in hyp_list:
 
 diarizationErrorRate = DiarizationErrorRate(skip_overlap=False, collar=0.0)
 
-diarization_plot(ref=ref_list, hyp=hyp_list)
+# Plot the Diarization graphic with all speakers.
+audio_path = "diarization/jueves_a_las_13-27.wav"
+diarization_plot(ref=ref_list, hyp=hyp_list, ylim=(-0.25,0.25), audio_path=audio_path)
 
 print("DER: ",diarizationErrorRate(ref, hyp, detailed=True))
