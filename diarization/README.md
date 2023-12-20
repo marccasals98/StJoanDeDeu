@@ -6,7 +6,7 @@ The task description is a .json file generated after making the labeling with La
 
 ## Pyannote
 
-This is the by-default technique of the project. It is done in ```diarization_test.py```
+This is the by-default technique of the project. It is done in ```diarization_test.py```.
 
 ## NeMo
 
@@ -40,3 +40,8 @@ The goal now is to track the different DERs that are obtained when modifying the
 | Collar 	| 0       	| 0.5     	| 1       	| 2        	| 5       	| 10      	|
 |--------	|---------	|---------	|---------	|----------	|---------	|---------	|
 | DER    	| 0.17264 	| 0.11631 	| 0.10058 	| 0.101501 	| 0.12321 	| 0.15093 	|
+
+## Plot Diarization
+There is a script that is dedicated to plotting the Diarization. Here we have an example with the audio file of St. Joan de Déu:
+
+![image](https://github.com/marccasals98/StJoanDeDeu/assets/97680577/0e6a7c21-466b-49fd-b5f7-d711772800bd)
