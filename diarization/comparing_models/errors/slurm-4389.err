@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/comparing_models/abir_method.py", line 2, in <module>
+    from pyannote.core import Annotation, Segment
+ModuleNotFoundError: No module named 'pyannote'

@@ -1,0 +1,54 @@
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/io.py:43: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch_audiomentations/utils/io.py:27: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+torchvision is not available - cannot save figures
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/inference.py", line 217, in infer
+    outputs = self.model(chunks.to(self.device))
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/models/segmentation/PyanNet.py", line 172, in forward
+    outputs = self.sincnet(waveforms)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/models/blocks/sincnet.py", line 87, in forward
+    outputs = conv1d(outputs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/asteroid_filterbanks/enc_dec.py", line 177, in forward
+    spec = multishape_conv1d(
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/asteroid_filterbanks/scripting.py", line 37, in wrapper
+    return fn(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/asteroid_filterbanks/enc_dec.py", line 216, in multishape_conv1d
+    return F.conv1d(waveform, filters, stride=stride, padding=padding)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 158.00 MiB. GPU 0 has a total capacty of 10.75 GiB of which 93.62 MiB is free. Process 3950334 has 10.40 GiB memory in use. Including non-PyTorch memory, this process has 260.00 MiB memory in use. Of the allocated memory 53.83 MiB is allocated by PyTorch, and 8.17 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 73, in <module>
+    sys.exit(main())
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 66, in main
+    diarization, embeddings = run_diarization(pipleline, waveform, sample_rate)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 41, in run_diarization
+    diarization, embeddings = pipeline({"waveform": waveform, "sample_rate": sample_rate}, 
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/pipeline.py", line 325, in __call__
+    return self.apply(file, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_diarization.py", line 479, in apply
+    segmentations = self.get_segmentations(file, hook=hook)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_diarization.py", line 225, in get_segmentations
+    segmentations: SlidingWindowFeature = self._segmentation(file, hook=hook)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/inference.py", line 425, in __call__
+    return self.slide(waveform, sample_rate, hook=hook)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/inference.py", line 317, in slide
+    batch_outputs: Union[np.ndarray, Tuple[np.ndarray]] = self.infer(batch)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/inference.py", line 220, in infer
+    raise MemoryError(
+MemoryError: batch_size ( 32) is probably too large. Try with a smaller value until memory error disappears.

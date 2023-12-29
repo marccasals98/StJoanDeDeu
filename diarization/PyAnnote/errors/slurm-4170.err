@@ -1,0 +1,21 @@
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/io.py:43: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch_audiomentations/utils/io.py:27: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+torchvision is not available - cannot save figures
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 71, in <module>
+    sys.exit(main())
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 54, in main
+    pipleline = init_pipepline()
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 24, in init_pipepline
+    pipeline = Pipeline.from_pretrained(
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/pipeline.py", line 136, in from_pretrained
+    pipeline = Klass(**params)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_diarization.py", line 167, in __init__
+    self._embedding = PretrainedSpeakerEmbedding(
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_verification.py", line 762, in PretrainedSpeakerEmbedding
+    return ONNXWeSpeakerPretrainedSpeakerEmbedding(embedding, device=device)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_verification.py", line 420, in __init__
+    raise ImportError(
+ImportError: 'onnxruntime' must be installed to use 'hbredin/wespeaker-voxceleb-resnet34-LM' embeddings.

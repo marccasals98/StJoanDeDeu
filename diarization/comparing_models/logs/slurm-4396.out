@@ -1,0 +1,2 @@
+The audiopath is: /home/usuaris/veu/marc.casals/943684.wav
+DER:  {'false alarm': 0.9000000000005457, 'confusion': 41.699999999998624, 'total': 21601.0, 'missed detection': 13041.699999999997, 'correct': 8517.600000000002, 'diarization error rate': 0.6057265867320956}

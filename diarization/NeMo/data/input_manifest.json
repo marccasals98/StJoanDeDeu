@@ -1,1 +1,1 @@
-{"audio_filepath": "diarization/prueba.wav", "offset": 0, "duration": null, "label": "infer", "text": "-", "num_speakers": 2, "rttm_filepath": null, "uem_filepath": null}
+{"audio_filepath": "/home/usuaris/veu/marc.casals/943684.wav", "offset": 0, "duration": null, "label": "infer", "text": "-", "num_speakers": 2, "rttm_filepath": null, "uem_filepath": null}

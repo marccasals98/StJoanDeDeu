@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/NeMo/main.py", line 1, in <module>
+    from nemo.collections.asr.models import ClusteringDiarizer
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/__init__.py", line 15, in <module>
+    from nemo.collections.asr import data, losses, models, modules
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/losses/__init__.py", line 15, in <module>
+    from nemo.collections.asr.losses.angularloss import AngularSoftmaxLoss
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/losses/angularloss.py", line 18, in <module>
+    from nemo.core.classes import Loss, Typing, typecheck
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/core/__init__.py", line 16, in <module>
+    from nemo.core.classes import *
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/core/classes/__init__.py", line 16, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
