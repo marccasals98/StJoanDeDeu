@@ -45,3 +45,9 @@ The goal now is to track the different DERs that are obtained when modifying the
 There is a script that is dedicated to plotting the Diarization. Here we have an example with the audio file of St. Joan de Déu:
 
 ![image](https://github.com/marccasals98/StJoanDeDeu/assets/97680577/0e6a7c21-466b-49fd-b5f7-d711772800bd)
+
+
+And for the parlament audio
+
+![image](https://github.com/marccasals98/StJoanDeDeu/assets/97680577/29e50344-f4d0-48a4-89b8-d7e63688d301)
+
