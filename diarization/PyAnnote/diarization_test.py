@@ -67,5 +67,7 @@ def main():
 
     print_results(diarization, embeddings)
 
+    print("Job has succeded! Thanks to Aina.")
+
 if __name__=='__main__':
     sys.exit(main())

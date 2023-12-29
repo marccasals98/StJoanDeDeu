@@ -1,0 +1,2 @@
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/metrics/utils.py:200: UserWarning: 'uem' was approximated by the union of 'reference' and 'hypothesis' extents.
+  warnings.warn(

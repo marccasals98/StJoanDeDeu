@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/NeMo/main.py", line 1, in <module>
+    from nemo.collections.asr.models import ClusteringDiarizer
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/__init__.py", line 15, in <module>
+    from nemo.collections.asr import data, losses, models, modules
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/losses/__init__.py", line 16, in <module>
+    from nemo.collections.asr.losses.audio_losses import SDRLoss
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/losses/audio_losses.py", line 21, in <module>
+    from nemo.collections.asr.parts.preprocessing.features import make_seq_mask_like
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/parts/preprocessing/__init__.py", line 16, in <module>
+    from nemo.collections.asr.parts.preprocessing.features import FeaturizerFactory, FilterbankFeatures, WaveformFeaturizer
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/parts/preprocessing/features.py", line 44, in <module>
+    from nemo.collections.asr.parts.preprocessing.perturb import AudioAugmentor
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/asr/parts/preprocessing/perturb.py", line 50, in <module>
+    from nemo.collections.common.parts.preprocessing import collections, parsers
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/common/__init__.py", line 16, in <module>
+    from nemo.collections.common import data, losses, parts, tokenizers
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/common/tokenizers/__init__.py", line 23, in <module>
+    from nemo.collections.common.tokenizers.youtokentome_tokenizer import YouTokenToMeTokenizer
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/nemo/collections/common/tokenizers/youtokentome_tokenizer.py", line 17, in <module>
+    import youtokentome as yttm
+ModuleNotFoundError: No module named 'youtokentome'

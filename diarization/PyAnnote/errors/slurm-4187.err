@@ -1,0 +1,19 @@
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/pyannote/audio/core/io.py:43: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch_audiomentations/utils/io.py:27: UserWarning: torchaudio._backend.set_audio_backend has been deprecated. With dispatcher enabled, this function is no-op. You can remove the function call.
+  torchaudio.set_audio_backend("soundfile")
+torchvision is not available - cannot save figures
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 71, in <module>
+    sys.exit(main())
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/PyAnnote/diarization_test.py", line 64, in main
+    waveform, sample_rate = torchaudio.load(args.audio_path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torchaudio/_backend/utils.py", line 204, in load
+    return backend.load(uri, frame_offset, num_frames, normalize, channels_first, format, buffer_size)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torchaudio/_backend/ffmpeg.py", line 336, in load
+    return load_audio(os.path.normpath(uri), frame_offset, num_frames, normalize, channels_first, format)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torchaudio/_backend/ffmpeg.py", line 100, in load_audio
+    return torch.ops.torchaudio.compat_load(src, format, filter, channels_first)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/torch/_ops.py", line 692, in __call__
+    return self._op(*args, **kwargs or {})
+RuntimeError: Failed to open the input "943684.wav" (No such file or directory).

@@ -1,0 +1,39 @@
+/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/comparing_models/plot_diarization.py:19: UserWarning: PySoundFile failed. Trying audioread instead.
+  sig, sr = librosa.load(audio_path)
+/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/librosa/core/audio.py:183: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/librosa/core/audio.py", line 175, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/librosa/core/audio.py", line 208, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'diarization/comparing_models/errors': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/comparing_models/abir_method.py", line 28, in <module>
+    diarization_plot(ref=ref_list, hyp=hyp_list, ylim=(-0.25,0.25), audio_path=audio_path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/comparing_models/plot_diarization.py", line 53, in diarization_plot
+    plot_waveform(audio_path=audio_path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/diarization/comparing_models/plot_diarization.py", line 19, in plot_waveform
+    sig, sr = librosa.load(audio_path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/librosa/core/audio.py", line 183, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/librosa/util/decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/librosa/core/audio.py", line 239, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/audioread/__init__.py", line 127, in audio_open
+    return BackendClass(path)
+  File "/home/usuaris/veu/marc.casals/StJoanDeDeu/st_joan/lib/python3.10/site-packages/audioread/rawread.py", line 59, in __init__
+    self._fh = open(filename, 'rb')
+IsADirectoryError: [Errno 21] Is a directory: 'diarization/comparing_models/errors'

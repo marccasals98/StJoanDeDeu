@@ -5,5 +5,5 @@ PATHS = {
     'pyannote_simplified' : "diarization/PyAnnote/results_simplified.txt",
     'whisperX' : "diarization/WhisperX/whisperX.txt",
     'parlament_gt': "diarization/GROUND_TRUTH/PARLAMENT/ground_truth.json",
-    'parlament_preds' : "diarization/PyAnnote/parlament_predicts.txt"
+    'parlament_preds' : "diarization/PyAnnote/parlament_predicts2.txt"
 }
