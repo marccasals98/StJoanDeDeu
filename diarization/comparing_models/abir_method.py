@@ -12,7 +12,7 @@ ref = Annotation()
 hyp = Annotation()
 
 # Import the references as list.
-ref_list = parlament_conversion()
+ref_list = label_studio_info()
 hyp_list = pyannote_info()
 
 for reference in ref_list:
@@ -24,7 +24,12 @@ for hyphotesis in hyp_list:
 diarizationErrorRate = DiarizationErrorRate(skip_overlap=False, collar=0.0)
 
 # Plot the Diarization graphic with all speakers.
+<<<<<<< HEAD
 audio_path = "/home/usuaris/veu/marc.casals/943684.wav"
 diarization_plot(ref=ref_list, hyp=hyp_list, ylim=(-0.4,0.4), audio_path=audio_path)
+=======
+audio_path = "diarization/jueves_a_las_13-27.wav"
+diarization_plot(ref=ref_list, hyp=hyp_list, ylim=(-0.25,0.25), audio_path=audio_path)
+>>>>>>> main
 
 print("DER: ",diarizationErrorRate(ref, hyp, detailed=True))
