@@ -1,5 +1,27 @@
 # PyAnnote
 
-Note: I haven't used this script for a while. However, I changed the folders and I reorganized the files, so the PATHS need to be changed.
+To use PyAnnote it is necessary to have a huggingface token with access to PyAnnote.
 
-Also, it is important to say, the huggingface token is deprecated and needs to be changed. Replace the token with you token and be sure to have the Meta permissions to use the Pyannote. 
+# Getting Started.
+
+There are two ways of running this script.
+
+1. Directly by running with Python using the commmand:
+```bash
+python3 diarization/PyAnnote/diarization_test.py filepath
+```
+
+2. Or, if the cluster has SLURM installed, by using:
+```bash
+sbatch diarization/PyAnnote/shs_container/main_job.sh 
+```
+Make sure to provide in the ```main_job.sh`` the proper slurm configurations and the proper audio path as well. 
+
+
+## Files:
+
+1. ```parlament_predicts.txt```: PyAnnote predictions of the first audiofile.
+2. ```parlament_predicts2.txt```: PyAnnote predictions of the second audiofile.
+3. ```results.txt```: Is the ground truth.    
+4. ```results.txt```: Is the ground truth without overlapping.
+    
